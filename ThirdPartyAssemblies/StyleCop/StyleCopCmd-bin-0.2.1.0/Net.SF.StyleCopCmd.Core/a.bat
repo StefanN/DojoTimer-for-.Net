@@ -1,0 +1,1 @@
+"C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ThirdPartyAssemblies\StyleCop\StyleCopCmd-bin-0.2.1.0\Net.SF.StyleCopCmd.Core\StyleCopSettingsEditor.exe" "C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ThirdPartyAssemblies\StyleCop\Settings.StyleCop"

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a267ad0e-b2b8-4097-ab86-8f804f36c5e4" name="NL07821@NLCKCBX3J 2011-01-07 22:22:18" runUser="EUROPE\NL07821" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c3caac8b-d538-4b41-b78d-16692feb5f6d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="NL07821_NLCKCBX3J 2011-01-07 22_22_18">
+      <DeploymentItem filename="C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinuousClientIntegration.Business\bin\Debug\ContinuousClientIntegration.Business.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-01-07T22:22:18.7500000+01:00" queuing="2011-01-07T22:22:18.9687500+01:00" start="2011-01-07T22:22:18.9687500+01:00" finish="2011-01-07T22:22:19.5156250+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InterpretTestResults_FailingTest_PropertiesSet" storage="c:\referencematerial\06 programming projects\dojotimer\continousclientintegration.business.tests\bin\debug\continuousclientintegration.business.tests.dll" id="1f8ecec2-a2ae-d753-03ea-8b07a4ac02c4">
+      <Execution id="0504ec89-8f01-485a-a438-fb51d98f259a" />
+      <TestMethod codeBase="C:/ReferenceMaterial/06 Programming Projects/DojoTimer/ContinousClientIntegration.Business.Tests/bin/Debug/ContinuousClientIntegration.Business.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.TestResultsInterpreterTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InterpretTestResults_FailingTest_PropertiesSet" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1f8ecec2-a2ae-d753-03ea-8b07a4ac02c4" executionId="0504ec89-8f01-485a-a438-fb51d98f259a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0504ec89-8f01-485a-a438-fb51d98f259a" testId="1f8ecec2-a2ae-d753-03ea-8b07a4ac02c4" testName="InterpretTestResults_FailingTest_PropertiesSet" computerName="NLCKCBX3J" duration="00:00:00.0698465" startTime="2011-01-07T22:22:18.9843750+01:00" endTime="2011-01-07T22:22:19.4843750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0504ec89-8f01-485a-a438-fb51d98f259a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ContinuousClientIntegration.Business.Tests.TestResultsInterpreterTests.InterpretTestResults_FailingTest_PropertiesSet threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at System.Xml.XmlReader.CalcBufferSize(Stream input)
+   at System.Xml.XmlTextReaderImpl.InitStreamInput(Uri baseUri, String baseUriStr, Stream stream, Byte[] bytes, Int32 byteCount, Encoding encoding)
+   at System.Xml.XmlTextReaderImpl..ctor(String url, Stream input, XmlNameTable nt)
+   at System.Xml.XmlDocument.Load(Stream inStream)
+   at ContinuousClientIntegration.Business.Tests.TestResultsInterpreterTests.InterpretTestResults_FailingTest_PropertiesSet() in C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinousClientIntegration.Business.Tests\TestResultsInterpreterTests.cs:line 53
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

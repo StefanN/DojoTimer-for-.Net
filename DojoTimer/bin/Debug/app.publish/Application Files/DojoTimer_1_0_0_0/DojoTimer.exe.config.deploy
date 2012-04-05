@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+      <section name="DojoTimer.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <appSettings>
+<!--    <add key="StyleCopPath" value="C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ThirdPartyAssemblies\StyleCop\StyleCopCmd-bin-0.2.1.0\Net.SF.StyleCopCmd.Console\StyleCopCmd.exe"/> -->
+<!--    <add key="StyleCopXslFileName" value="C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ThirdPartyAssemblies\StyleCop\StyleCopCmd-bin-0.2.1.0\StyleCopReport.xsl"/> -->
+<!--    <add key="StyleCopSettingsFilePath" value="C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ThirdPartyAssemblies\StyleCop\Settings.StyleCop"/> -->
+  </appSettings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+  </startup>
+  <userSettings>
+    <DojoTimer.Properties.Settings>
+      <setting name="TimerMinutes" serializeAs="String">
+        <value>7</value>
+      </setting>
+      <setting name="CompileIntervalMilliseconds" serializeAs="String">
+        <value>60000</value>
+      </setting>
+      <setting name="CleanupAfterCompile" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="UseCoverage" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="BaseCompilePath" serializeAs="String">
+        <value>C:\DOJO OUT</value>
+      </setting>
+      <setting name="MSBuildPath" serializeAs="String">
+        <value>C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\msbuild.exe</value>
+      </setting>
+      <setting name="MSTestPath" serializeAs="String">
+        <value>C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\MStest.exe</value>
+      </setting>
+      <setting name="PartCoverPath" serializeAs="String">
+        <value>C:\Program Files\PartCover\PartCover .NET 4.0\partcover.exe</value>
+      </setting>
+      <setting name="CoverageReportingAssembliesRegEx" serializeAs="String">
+        <value>[Continuous*]*</value>
+      </setting>
+      <setting name="SolutionPath" serializeAs="String">
+        <value>C:\ReferenceMaterial\06 Programming Projects\DojoTimer\DojoTimer.sln</value>
+      </setting>
+    </DojoTimer.Properties.Settings>
+  </userSettings>
+</configuration>

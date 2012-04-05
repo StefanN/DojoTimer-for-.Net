@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoTimer", "DojoTimer\DojoTimer.csproj", "{26E80125-F87C-4446-A9DA-41805E643F2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuousClientIntegration.Business", "ContinuousClientIntegration.Business\ContinuousClientIntegration.Business.csproj", "{4C115816-E748-4018-AB12-A38A067742B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuousClientIntegration.Business.Tests", "ContinousClientIntegration.Business.Tests\ContinuousClientIntegration.Business.Tests.csproj", "{344F07B8-4BBC-46DC-9689-44A47E9383FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC0E8527-D181-41B9-BAEE-7F256EB5F939}"
+	ProjectSection(SolutionItems) = preProject
+		DojoTimer.vsmdi = DojoTimer.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DojoTimer.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26E80125-F87C-4446-A9DA-41805E643F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E80125-F87C-4446-A9DA-41805E643F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E80125-F87C-4446-A9DA-41805E643F2F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{26E80125-F87C-4446-A9DA-41805E643F2F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{26E80125-F87C-4446-A9DA-41805E643F2F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{26E80125-F87C-4446-A9DA-41805E643F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E80125-F87C-4446-A9DA-41805E643F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E80125-F87C-4446-A9DA-41805E643F2F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{26E80125-F87C-4446-A9DA-41805E643F2F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{26E80125-F87C-4446-A9DA-41805E643F2F}.Release|x86.ActiveCfg = Release|Any CPU
+		{4C115816-E748-4018-AB12-A38A067742B9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4C115816-E748-4018-AB12-A38A067742B9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{4C115816-E748-4018-AB12-A38A067742B9}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{4C115816-E748-4018-AB12-A38A067742B9}.Debug|x86.ActiveCfg = Debug|x86
+		{4C115816-E748-4018-AB12-A38A067742B9}.Debug|x86.Build.0 = Debug|x86
+		{4C115816-E748-4018-AB12-A38A067742B9}.Release|Any CPU.ActiveCfg = Release|x86
+		{4C115816-E748-4018-AB12-A38A067742B9}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{4C115816-E748-4018-AB12-A38A067742B9}.Release|Mixed Platforms.Build.0 = Release|x86
+		{4C115816-E748-4018-AB12-A38A067742B9}.Release|x86.ActiveCfg = Release|x86
+		{4C115816-E748-4018-AB12-A38A067742B9}.Release|x86.Build.0 = Release|x86
+		{344F07B8-4BBC-46DC-9689-44A47E9383FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344F07B8-4BBC-46DC-9689-44A47E9383FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344F07B8-4BBC-46DC-9689-44A47E9383FE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{344F07B8-4BBC-46DC-9689-44A47E9383FE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{344F07B8-4BBC-46DC-9689-44A47E9383FE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{344F07B8-4BBC-46DC-9689-44A47E9383FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344F07B8-4BBC-46DC-9689-44A47E9383FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344F07B8-4BBC-46DC-9689-44A47E9383FE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{344F07B8-4BBC-46DC-9689-44A47E9383FE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{344F07B8-4BBC-46DC-9689-44A47E9383FE}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

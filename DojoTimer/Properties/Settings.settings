@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DojoTimer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TimerMinutes" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="CompileIntervalMilliseconds" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="CleanupAfterCompile" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UseCoverage" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="BaseCompilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\DOJO OUT</Value>
+    </Setting>
+    <Setting Name="MSBuildPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\msbuild.exe</Value>
+    </Setting>
+    <Setting Name="MSTestPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\MStest.exe</Value>
+    </Setting>
+    <Setting Name="PartCoverPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\PartCover\PartCover .NET 4.0\partcover.exe</Value>
+    </Setting>
+    <Setting Name="CoverageReportingAssembliesRegEx" Type="System.String" Scope="User">
+      <Value Profile="(Default)">+[Continuous*]*</Value>
+    </Setting>
+    <Setting Name="SolutionPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ReferenceMaterial\06 Programming Projects\DojoTimer\DojoTimer.sln</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

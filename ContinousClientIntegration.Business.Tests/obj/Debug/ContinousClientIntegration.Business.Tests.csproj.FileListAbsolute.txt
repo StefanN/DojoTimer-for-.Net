@@ -1,0 +1,63 @@
+C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinousClientIntegration.Business.Tests\bin\Debug\ContinousClientIntegration.Business.Tests.dll
+C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinousClientIntegration.Business.Tests\bin\Debug\ContinousClientIntegration.Business.Tests.pdb
+C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinousClientIntegration.Business.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinousClientIntegration.Business.Tests\obj\Debug\ContinousClientIntegration.Business.Tests.dll
+C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinousClientIntegration.Business.Tests\obj\Debug\ContinousClientIntegration.Business.Tests.pdb
+C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinousClientIntegration.Business.Tests\bin\Debug\ContinuousClientIntegration.Business.dll
+C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinousClientIntegration.Business.Tests\bin\Debug\ContinuousClientIntegration.Business.pdb
+C:\DOJO OUT\20101229_195830\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101229_195830\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101229_200235\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101229_200235\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101229_200310\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101229_200310\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101229_202059\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101229_202059\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101229_211543\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101229_211543\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101229_213234\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101229_213234\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101229_220650\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101229_220650\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101229_220731\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101229_220731\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_093757\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_093757\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_094555\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_094555\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_094613\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_094613\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_094632\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_094632\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_142104\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_142104\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_142609\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_142609\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_142627\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_142627\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_142834\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_142834\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_142906\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_142906\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_143245\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_143245\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_143403\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_143403\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_143432\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_143432\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_143518\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_143518\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_143635\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_143635\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_143938\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_143938\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_144011\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_144011\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_144034\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_144034\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_144232\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_144232\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_145254\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_145254\ContinousClientIntegration.Business.Tests.pdb
+C:\DOJO OUT\20101230_145341\ContinousClientIntegration.Business.Tests.dll
+C:\DOJO OUT\20101230_145341\ContinousClientIntegration.Business.Tests.pdb

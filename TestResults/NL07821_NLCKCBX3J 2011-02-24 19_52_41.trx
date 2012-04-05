@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3788ed6c-f4c3-44e1-9691-68985d269b13" name="NL07821@NLCKCBX3J 2011-02-24 19:52:41" runUser="EUROPE\NL07821" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c3caac8b-d538-4b41-b78d-16692feb5f6d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="NL07821_NLCKCBX3J 2011-02-24 19_52_41">
+      <DeploymentItem filename="C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinuousClientIntegration.Business\bin\Debug\ContinuousClientIntegration.Business.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-02-24T19:52:41.1875000+01:00" queuing="2011-02-24T19:52:41.4062500+01:00" start="2011-02-24T19:52:41.4218750+01:00" finish="2011-02-24T19:52:41.9531250+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateStyleCopProcessStartInfo_AllSettingsValid_ValidResult" storage="c:\referencematerial\06 programming projects\dojotimer\continousclientintegration.business.tests\bin\debug\continuousclientintegration.business.tests.dll" id="fdfd04ab-30d4-27e9-b9d4-3b55bfc71c68">
+      <Execution id="8ad82478-b716-4f4f-bffc-7e4461bb52bd" />
+      <TestMethod codeBase="C:/ReferenceMaterial/06 Programming Projects/DojoTimer/ContinousClientIntegration.Business.Tests/bin/Debug/ContinuousClientIntegration.Business.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.ProcessStartInfoFactoryTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateStyleCopProcessStartInfo_AllSettingsValid_ValidResult" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fdfd04ab-30d4-27e9-b9d4-3b55bfc71c68" executionId="8ad82478-b716-4f4f-bffc-7e4461bb52bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8ad82478-b716-4f4f-bffc-7e4461bb52bd" testId="fdfd04ab-30d4-27e9-b9d4-3b55bfc71c68" testName="CreateStyleCopProcessStartInfo_AllSettingsValid_ValidResult" computerName="NLCKCBX3J" duration="00:00:00.0401268" startTime="2011-02-24T19:52:41.4218750+01:00" endTime="2011-02-24T19:52:41.9062500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ad82478-b716-4f4f-bffc-7e4461bb52bd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-sf "c:\solution\test.sln" -of "c:\result.xml" -tf "c:\stylesheet.xsl" -sc "c:\stylecop.settings"&gt;. Actual:&lt;-sf "c:\solution\test.sln"-of "c:\result.xml" -tf "c:\stylesheet.xsl" -sc "c:\stylecop.settings"&gt;. </Message>
+          <StackTrace>   at ContinuousClientIntegration.Business.Tests.ProcessStartInfoFactoryTests.CreateStyleCopProcessStartInfo_AllSettingsValid_ValidResult() in C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinousClientIntegration.Business.Tests\ProcessStartInfoFactoryTests.cs:line 97
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

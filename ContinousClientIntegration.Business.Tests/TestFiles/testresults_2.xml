@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b9eb8098-7c77-4ae8-8566-1fd9fea86509" name="NL07821@NLCKCBX3J 2011-01-07 22:20:50" runUser="EUROPE\NL07821" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="be037d64-9517-4a58-9801-7dcfd713c6ac">
+    <Deployment userDeploymentRoot="C:\DOJO OUT\20110107_222048" useDefaultDeploymentRoot="false" runDeploymentRoot="NL07821_NLCKCBX3J 2011-01-07 22_20_50" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-01-07T22:20:50.0156250+01:00" queuing="2011-01-07T22:20:50.3281250+01:00" start="2011-01-07T22:20:50.3593750+01:00" finish="2011-01-07T22:20:50.8906250+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="26" executed="26" passed="25" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetLogFilePath_RegularDate_ValidValue" storage="continuousclientintegration.business.tests.dll" id="3c3cd40b-3273-26f4-e886-822c2994362d">
+      <Execution timeOut="1800000" id="64f4a8b6-b24b-4126-a41d-244b4f259432" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.StatisticsLoggerTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetLogFilePath_RegularDate_ValidValue" />
+    </UnitTest>
+    <UnitTest name="GetTimeStamp_RegularDate_ValidValue" storage="continuousclientintegration.business.tests.dll" id="a66229e5-2a9d-483e-4f3f-136897142cef">
+      <Execution timeOut="1800000" id="4f37cf0e-b5aa-401c-9f89-6642cd5b3fec" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.StatisticsLoggerTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetTimeStamp_RegularDate_ValidValue" />
+    </UnitTest>
+    <UnitTest name="DefaultValues" storage="continuousclientintegration.business.tests.dll" id="c02a31d2-04af-ffb6-54d7-333b2b85bb05">
+      <Execution timeOut="1800000" id="25f32f6d-8d7d-40bb-abf7-fb1bb77583f4" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.TestResultsTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DefaultValues" />
+    </UnitTest>
+    <UnitTest name="CreateCompileProcessStartInfo_AllSettingsValid_ValidResult" storage="continuousclientintegration.business.tests.dll" id="e90aa830-31b1-c2db-7394-b334fe008bf6">
+      <Execution timeOut="1800000" id="2c510259-8c8e-4416-b20c-5d4f46db79fe" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.ProcessStartInfoFactoryTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateCompileProcessStartInfo_AllSettingsValid_ValidResult" />
+    </UnitTest>
+    <UnitTest name="InterpretTestResults_PassingTests_PropertiesSet" storage="continuousclientintegration.business.tests.dll" id="896699dd-dbfa-624a-26d0-97a7fa3dc5c9">
+      <Execution timeOut="1800000" id="7ad823da-cb7f-499b-825a-f65d2d7ade5f" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.TestResultsInterpreterTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InterpretTestResults_PassingTests_PropertiesSet" />
+    </UnitTest>
+    <UnitTest name="LogEvent_BuildFailure_AddEvent_EventAdded" storage="continuousclientintegration.business.tests.dll" id="e513c20a-14cf-8f34-e66d-0dfee820951a">
+      <Execution timeOut="1800000" id="a987346a-5ad0-498c-b4d7-37064c24152a" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.StatisticsLoggerTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogEvent_BuildFailure_AddEvent_EventAdded" />
+    </UnitTest>
+    <UnitTest name="CreateTestAndCoverageProcessStartInfo_AllSettingsValid_ValidResult" storage="continuousclientintegration.business.tests.dll" id="eec5cca0-fe95-abfe-1b14-a10c12dce8b5">
+      <Execution timeOut="1800000" id="71e33dc7-ef6f-4156-a243-768effae28e3" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.ProcessStartInfoFactoryTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTestAndCoverageProcessStartInfo_AllSettingsValid_ValidResult" />
+    </UnitTest>
+    <UnitTest name="ParseDate_ValidDate_ValidResult" storage="continuousclientintegration.business.tests.dll" id="58c1185b-7098-f400-7fa5-5068242d621b">
+      <Execution timeOut="1800000" id="9350777b-aebc-4bb6-9a80-f0520a8620b9" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.DataRangeReaderTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParseDate_ValidDate_ValidResult" />
+    </UnitTest>
+    <UnitTest name="CreateWithEmptySettings" storage="continuousclientintegration.business.tests.dll" id="b0579bcd-6895-8f95-d9b5-b0684ecea411">
+      <Execution timeOut="1800000" id="3fab763a-1947-4b7d-a840-d8327e9f266a" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.ContinuousIntegrationClientProcessTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateWithEmptySettings" />
+    </UnitTest>
+    <UnitTest name="GetCoverage_TwoMethodsSomeCoverage_100" storage="continuousclientintegration.business.tests.dll" id="0ca44dba-621e-f1ad-1203-c13b8185522c">
+      <Execution timeOut="1800000" id="48cb371c-a5d8-4a9a-860f-4d05cf7b004d" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.CoveredAssemblyTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCoverage_TwoMethodsSomeCoverage_100" />
+    </UnitTest>
+    <UnitTest name="ReadDataRangesFromXmlDocument_2Assemblies_4Ranges" storage="continuousclientintegration.business.tests.dll" id="2328c657-bb67-0c98-4bef-7b89c9415212">
+      <Execution timeOut="1800000" id="b19f9a9c-6a94-4269-ba23-60f6079b2fdb" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.DataRangeReaderTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReadDataRangesFromXmlDocument_2Assemblies_4Ranges" />
+    </UnitTest>
+    <UnitTest name="GetCoverage_NoMethods_0" storage="continuousclientintegration.business.tests.dll" id="375a3e6e-e81b-adcc-e687-563b8e5c6744">
+      <Execution timeOut="1800000" id="678f392b-3fe0-42e3-8b55-1f0c537345f0" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.CoveredAssemblyTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCoverage_NoMethods_0" />
+    </UnitTest>
+    <UnitTest name="NoCleanUp" storage="continuousclientintegration.business.tests.dll" id="0d08e916-3410-49f7-3d25-7f0d682d9ec0">
+      <Execution timeOut="1800000" id="9593ae21-91ef-4d0f-8e0a-a37aa9e76347" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.ContinuousIntegrationClientProcessTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoCleanUp" />
+    </UnitTest>
+    <UnitTest name="CreateNewSubdirName_ValidDate_" storage="continuousclientintegration.business.tests.dll" id="811c387b-2824-7c98-5e12-9046fb7e7555">
+      <Execution timeOut="1800000" id="25b9f639-8064-4b60-bfb7-2f4b73f650d4" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.ContinuousIntegrationClientProcessTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateNewSubdirName_ValidDate_" />
+    </UnitTest>
+    <UnitTest name="AnalyzeCoverage_ThreeAssemblies_10percentCoverage" storage="continuousclientintegration.business.tests.dll" id="8d5e9695-286d-6656-3fb8-5929058e10af">
+      <Execution timeOut="1800000" id="8edcc317-9cce-42eb-b4ee-3155555f905d" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.CoveredAssemblySetTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AnalyzeCoverage_ThreeAssemblies_10percentCoverage" />
+    </UnitTest>
+    <UnitTest name="CreateTestProcessStartInfo_AllSettingsValid_ValidResult" storage="continuousclientintegration.business.tests.dll" id="c834a2ec-3aa5-a8e5-b75b-b7aaa18ffd00">
+      <Execution timeOut="1800000" id="1690e981-7068-404e-be44-2774d08fc0ce" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.ProcessStartInfoFactoryTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTestProcessStartInfo_AllSettingsValid_ValidResult" />
+    </UnitTest>
+    <UnitTest name="LogEvent_StartTimer_AddEvent_EventAdded" storage="continuousclientintegration.business.tests.dll" id="f596561f-6125-cba0-cd8e-82c2b6621e71">
+      <Execution timeOut="1800000" id="34b6bf56-4e9a-4d7f-82d6-abe7f010a05d" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.StatisticsLoggerTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogEvent_StartTimer_AddEvent_EventAdded" />
+    </UnitTest>
+    <UnitTest name="CleanUp" storage="continuousclientintegration.business.tests.dll" id="b0f347e3-bf6d-a929-f17d-ceec533c4f60">
+      <Execution timeOut="1800000" id="be44b611-c457-4a90-a01c-ded1a95aaf19" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.ContinuousIntegrationClientProcessTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CleanUp" />
+    </UnitTest>
+    <UnitTest name="GetCoverage_OneMethodFullCoverage_100" storage="continuousclientintegration.business.tests.dll" id="779a95ba-82ba-92c6-b0d2-8d24e59961d7">
+      <Execution timeOut="1800000" id="556c10e4-7579-47a7-a25b-d9b7d90492bd" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.CoveredAssemblyTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCoverage_OneMethodFullCoverage_100" />
+    </UnitTest>
+    <UnitTest name="GetCoverage_1MethodNoCoverage_0" storage="continuousclientintegration.business.tests.dll" id="f0aee7aa-7284-6aed-851e-73c60540a7d6">
+      <Execution timeOut="1800000" id="c4705516-0087-4a8b-b02f-d6fbbd876043" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.CoveredAssemblyTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCoverage_1MethodNoCoverage_0" />
+    </UnitTest>
+    <UnitTest name="SettersAndGetters" storage="continuousclientintegration.business.tests.dll" id="14142afb-a52e-53d2-5986-0505f28401eb">
+      <Execution timeOut="1800000" id="ebe7dbbf-6d9a-4b9e-9a21-bbdb00c719e2" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.TestResultsTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SettersAndGetters" />
+    </UnitTest>
+    <UnitTest name="LogEvent_BuildSuccess_AddEvent_EventAdded" storage="continuousclientintegration.business.tests.dll" id="37e462f0-d870-9f99-65d8-ab10616f6cda">
+      <Execution timeOut="1800000" id="be80baac-b981-46f8-b6fb-5ba54bed6ff2" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.StatisticsLoggerTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogEvent_BuildSuccess_AddEvent_EventAdded" />
+    </UnitTest>
+    <UnitTest name="LogEvent_BuildFailure_AddEvent_EvellntAdded" storage="continuousclientintegration.business.tests.dll" id="dcf0bf7f-dffa-fdbd-8860-04903eb8af6a">
+      <Execution timeOut="1800000" id="133a165d-1cad-4e6e-870b-cea924de1f11" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.StatisticsLoggerTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogEvent_BuildFailure_AddEvent_EvellntAdded" />
+    </UnitTest>
+    <UnitTest name="GettersAndSetters" storage="continuousclientintegration.business.tests.dll" id="85a1d4a4-e070-6d79-125b-696462a66d74">
+      <Execution timeOut="1800000" id="0cda11f1-7a20-492c-9fbb-eb223741ce75" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.SettingsTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GettersAndSetters" />
+    </UnitTest>
+    <UnitTest name="LogEvent_EndTimer_AddEvent_EventAdded" storage="continuousclientintegration.business.tests.dll" id="d204e93c-511d-cd25-af62-2249661de53c">
+      <Execution timeOut="1800000" id="29d86afa-9c1d-4b75-952c-fdb108f0c8f5" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.StatisticsLoggerTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogEvent_EndTimer_AddEvent_EventAdded" />
+    </UnitTest>
+    <UnitTest name="ParseDouble_ValidValue_ValidResult" storage="continuousclientintegration.business.tests.dll" id="3de001b4-c91b-95cb-24b4-181bb7f74463">
+      <Execution timeOut="1800000" id="284e1cd0-aa6d-4dbf-8417-45bf2e19f0c4" />
+      <TestMethod codeBase="C:/DOJO OUT/20110107_222048/ContinuousClientIntegration.Business.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ContinuousClientIntegration.Business.Tests.DataRangeReaderTests, ContinuousClientIntegration.Business.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParseDouble_ValidValue_ValidResult" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b0f347e3-bf6d-a929-f17d-ceec533c4f60" executionId="be44b611-c457-4a90-a01c-ded1a95aaf19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="811c387b-2824-7c98-5e12-9046fb7e7555" executionId="25b9f639-8064-4b60-bfb7-2f4b73f650d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0579bcd-6895-8f95-d9b5-b0684ecea411" executionId="3fab763a-1947-4b7d-a840-d8327e9f266a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d08e916-3410-49f7-3d25-7f0d682d9ec0" executionId="9593ae21-91ef-4d0f-8e0a-a37aa9e76347" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d5e9695-286d-6656-3fb8-5929058e10af" executionId="8edcc317-9cce-42eb-b4ee-3155555f905d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0aee7aa-7284-6aed-851e-73c60540a7d6" executionId="c4705516-0087-4a8b-b02f-d6fbbd876043" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="375a3e6e-e81b-adcc-e687-563b8e5c6744" executionId="678f392b-3fe0-42e3-8b55-1f0c537345f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="779a95ba-82ba-92c6-b0d2-8d24e59961d7" executionId="556c10e4-7579-47a7-a25b-d9b7d90492bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ca44dba-621e-f1ad-1203-c13b8185522c" executionId="48cb371c-a5d8-4a9a-860f-4d05cf7b004d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58c1185b-7098-f400-7fa5-5068242d621b" executionId="9350777b-aebc-4bb6-9a80-f0520a8620b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3de001b4-c91b-95cb-24b4-181bb7f74463" executionId="284e1cd0-aa6d-4dbf-8417-45bf2e19f0c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2328c657-bb67-0c98-4bef-7b89c9415212" executionId="b19f9a9c-6a94-4269-ba23-60f6079b2fdb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e90aa830-31b1-c2db-7394-b334fe008bf6" executionId="2c510259-8c8e-4416-b20c-5d4f46db79fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eec5cca0-fe95-abfe-1b14-a10c12dce8b5" executionId="71e33dc7-ef6f-4156-a243-768effae28e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c834a2ec-3aa5-a8e5-b75b-b7aaa18ffd00" executionId="1690e981-7068-404e-be44-2774d08fc0ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85a1d4a4-e070-6d79-125b-696462a66d74" executionId="0cda11f1-7a20-492c-9fbb-eb223741ce75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c3cd40b-3273-26f4-e886-822c2994362d" executionId="64f4a8b6-b24b-4126-a41d-244b4f259432" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a66229e5-2a9d-483e-4f3f-136897142cef" executionId="4f37cf0e-b5aa-401c-9f89-6642cd5b3fec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcf0bf7f-dffa-fdbd-8860-04903eb8af6a" executionId="133a165d-1cad-4e6e-870b-cea924de1f11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e513c20a-14cf-8f34-e66d-0dfee820951a" executionId="a987346a-5ad0-498c-b4d7-37064c24152a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37e462f0-d870-9f99-65d8-ab10616f6cda" executionId="be80baac-b981-46f8-b6fb-5ba54bed6ff2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d204e93c-511d-cd25-af62-2249661de53c" executionId="29d86afa-9c1d-4b75-952c-fdb108f0c8f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f596561f-6125-cba0-cd8e-82c2b6621e71" executionId="34b6bf56-4e9a-4d7f-82d6-abe7f010a05d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="896699dd-dbfa-624a-26d0-97a7fa3dc5c9" executionId="7ad823da-cb7f-499b-825a-f65d2d7ade5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c02a31d2-04af-ffb6-54d7-333b2b85bb05" executionId="25f32f6d-8d7d-40bb-abf7-fb1bb77583f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14142afb-a52e-53d2-5986-0505f28401eb" executionId="ebe7dbbf-6d9a-4b9e-9a21-bbdb00c719e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="be44b611-c457-4a90-a01c-ded1a95aaf19" testId="b0f347e3-bf6d-a929-f17d-ceec533c4f60" testName="CleanUp" computerName="NLCKCBX3J" duration="00:00:00.0172555" startTime="2011-01-07T22:20:50.3750000+01:00" endTime="2011-01-07T22:20:50.4062500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be44b611-c457-4a90-a01c-ded1a95aaf19">
+    </UnitTestResult>
+    <UnitTestResult executionId="25b9f639-8064-4b60-bfb7-2f4b73f650d4" testId="811c387b-2824-7c98-5e12-9046fb7e7555" testName="CreateNewSubdirName_ValidDate_" computerName="NLCKCBX3J" duration="00:00:00.0014895" startTime="2011-01-07T22:20:50.4062500+01:00" endTime="2011-01-07T22:20:50.4218750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25b9f639-8064-4b60-bfb7-2f4b73f650d4">
+    </UnitTestResult>
+    <UnitTestResult executionId="3fab763a-1947-4b7d-a840-d8327e9f266a" testId="b0579bcd-6895-8f95-d9b5-b0684ecea411" testName="CreateWithEmptySettings" computerName="NLCKCBX3J" duration="00:00:00.0035691" startTime="2011-01-07T22:20:50.4218750+01:00" endTime="2011-01-07T22:20:50.4218750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3fab763a-1947-4b7d-a840-d8327e9f266a">
+    </UnitTestResult>
+    <UnitTestResult executionId="9593ae21-91ef-4d0f-8e0a-a37aa9e76347" testId="0d08e916-3410-49f7-3d25-7f0d682d9ec0" testName="NoCleanUp" computerName="NLCKCBX3J" duration="00:00:00.0012970" startTime="2011-01-07T22:20:50.4375000+01:00" endTime="2011-01-07T22:20:50.4375000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9593ae21-91ef-4d0f-8e0a-a37aa9e76347">
+    </UnitTestResult>
+    <UnitTestResult executionId="8edcc317-9cce-42eb-b4ee-3155555f905d" testId="8d5e9695-286d-6656-3fb8-5929058e10af" testName="AnalyzeCoverage_ThreeAssemblies_10percentCoverage" computerName="NLCKCBX3J" duration="00:00:00.0264595" startTime="2011-01-07T22:20:50.4375000+01:00" endTime="2011-01-07T22:20:50.4687500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8edcc317-9cce-42eb-b4ee-3155555f905d">
+    </UnitTestResult>
+    <UnitTestResult executionId="c4705516-0087-4a8b-b02f-d6fbbd876043" testId="f0aee7aa-7284-6aed-851e-73c60540a7d6" testName="GetCoverage_1MethodNoCoverage_0" computerName="NLCKCBX3J" duration="00:00:00.0012130" startTime="2011-01-07T22:20:50.4687500+01:00" endTime="2011-01-07T22:20:50.4687500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4705516-0087-4a8b-b02f-d6fbbd876043">
+    </UnitTestResult>
+    <UnitTestResult executionId="678f392b-3fe0-42e3-8b55-1f0c537345f0" testId="375a3e6e-e81b-adcc-e687-563b8e5c6744" testName="GetCoverage_NoMethods_0" computerName="NLCKCBX3J" duration="00:00:00.0045824" startTime="2011-01-07T22:20:50.4843750+01:00" endTime="2011-01-07T22:20:50.4843750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="678f392b-3fe0-42e3-8b55-1f0c537345f0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;5555&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>
+            at ContinuousClientIntegration.Business.Tests.CoveredAssemblyTests.GetCoverage_NoMethods_0() in C:\ReferenceMaterial\06 Programming Projects\DojoTimer\ContinousClientIntegration.Business.Tests\CoveredAssemblyTests.cs:line 19
+          </StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="556c10e4-7579-47a7-a25b-d9b7d90492bd" testId="779a95ba-82ba-92c6-b0d2-8d24e59961d7" testName="GetCoverage_OneMethodFullCoverage_100" computerName="NLCKCBX3J" duration="00:00:00.0009216" startTime="2011-01-07T22:20:50.4843750+01:00" endTime="2011-01-07T22:20:50.5000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="556c10e4-7579-47a7-a25b-d9b7d90492bd">
+    </UnitTestResult>
+    <UnitTestResult executionId="48cb371c-a5d8-4a9a-860f-4d05cf7b004d" testId="0ca44dba-621e-f1ad-1203-c13b8185522c" testName="GetCoverage_TwoMethodsSomeCoverage_100" computerName="NLCKCBX3J" duration="00:00:00.0012121" startTime="2011-01-07T22:20:50.5468750+01:00" endTime="2011-01-07T22:20:50.5468750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48cb371c-a5d8-4a9a-860f-4d05cf7b004d">
+    </UnitTestResult>
+    <UnitTestResult executionId="9350777b-aebc-4bb6-9a80-f0520a8620b9" testId="58c1185b-7098-f400-7fa5-5068242d621b" testName="ParseDate_ValidDate_ValidResult" computerName="NLCKCBX3J" duration="00:00:00.0026039" startTime="2011-01-07T22:20:50.5468750+01:00" endTime="2011-01-07T22:20:50.5625000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9350777b-aebc-4bb6-9a80-f0520a8620b9">
+    </UnitTestResult>
+    <UnitTestResult executionId="284e1cd0-aa6d-4dbf-8417-45bf2e19f0c4" testId="3de001b4-c91b-95cb-24b4-181bb7f74463" testName="ParseDouble_ValidValue_ValidResult" computerName="NLCKCBX3J" duration="00:00:00.0010777" startTime="2011-01-07T22:20:50.6250000+01:00" endTime="2011-01-07T22:20:50.6250000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="284e1cd0-aa6d-4dbf-8417-45bf2e19f0c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="b19f9a9c-6a94-4269-ba23-60f6079b2fdb" testId="2328c657-bb67-0c98-4bef-7b89c9415212" testName="ReadDataRangesFromXmlDocument_2Assemblies_4Ranges" computerName="NLCKCBX3J" duration="00:00:00.0114852" startTime="2011-01-07T22:20:50.6406250+01:00" endTime="2011-01-07T22:20:50.6406250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b19f9a9c-6a94-4269-ba23-60f6079b2fdb">
+    </UnitTestResult>
+    <UnitTestResult executionId="2c510259-8c8e-4416-b20c-5d4f46db79fe" testId="e90aa830-31b1-c2db-7394-b334fe008bf6" testName="CreateCompileProcessStartInfo_AllSettingsValid_ValidResult" computerName="NLCKCBX3J" duration="00:00:00.0044114" startTime="2011-01-07T22:20:50.6718750+01:00" endTime="2011-01-07T22:20:50.6875000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c510259-8c8e-4416-b20c-5d4f46db79fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="71e33dc7-ef6f-4156-a243-768effae28e3" testId="eec5cca0-fe95-abfe-1b14-a10c12dce8b5" testName="CreateTestAndCoverageProcessStartInfo_AllSettingsValid_ValidResult" computerName="NLCKCBX3J" duration="00:00:00.0069207" startTime="2011-01-07T22:20:50.6875000+01:00" endTime="2011-01-07T22:20:50.7031250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71e33dc7-ef6f-4156-a243-768effae28e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="1690e981-7068-404e-be44-2774d08fc0ce" testId="c834a2ec-3aa5-a8e5-b75b-b7aaa18ffd00" testName="CreateTestProcessStartInfo_AllSettingsValid_ValidResult" computerName="NLCKCBX3J" duration="00:00:00.0045469" startTime="2011-01-07T22:20:50.7031250+01:00" endTime="2011-01-07T22:20:50.7031250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1690e981-7068-404e-be44-2774d08fc0ce">
+    </UnitTestResult>
+    <UnitTestResult executionId="0cda11f1-7a20-492c-9fbb-eb223741ce75" testId="85a1d4a4-e070-6d79-125b-696462a66d74" testName="GettersAndSetters" computerName="NLCKCBX3J" duration="00:00:00.0030878" startTime="2011-01-07T22:20:50.7187500+01:00" endTime="2011-01-07T22:20:50.7187500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cda11f1-7a20-492c-9fbb-eb223741ce75">
+    </UnitTestResult>
+    <UnitTestResult executionId="64f4a8b6-b24b-4126-a41d-244b4f259432" testId="3c3cd40b-3273-26f4-e886-822c2994362d" testName="GetLogFilePath_RegularDate_ValidValue" computerName="NLCKCBX3J" duration="00:00:00.0017882" startTime="2011-01-07T22:20:50.7500000+01:00" endTime="2011-01-07T22:20:50.7500000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64f4a8b6-b24b-4126-a41d-244b4f259432">
+    </UnitTestResult>
+    <UnitTestResult executionId="4f37cf0e-b5aa-401c-9f89-6642cd5b3fec" testId="a66229e5-2a9d-483e-4f3f-136897142cef" testName="GetTimeStamp_RegularDate_ValidValue" computerName="NLCKCBX3J" duration="00:00:00.0016002" startTime="2011-01-07T22:20:50.7656250+01:00" endTime="2011-01-07T22:20:50.7656250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f37cf0e-b5aa-401c-9f89-6642cd5b3fec">
+    </UnitTestResult>
+    <UnitTestResult executionId="133a165d-1cad-4e6e-870b-cea924de1f11" testId="dcf0bf7f-dffa-fdbd-8860-04903eb8af6a" testName="LogEvent_BuildFailure_AddEvent_EvellntAdded" computerName="NLCKCBX3J" duration="00:00:00.0081409" startTime="2011-01-07T22:20:50.7968750+01:00" endTime="2011-01-07T22:20:50.7968750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="133a165d-1cad-4e6e-870b-cea924de1f11">
+    </UnitTestResult>
+    <UnitTestResult executionId="a987346a-5ad0-498c-b4d7-37064c24152a" testId="e513c20a-14cf-8f34-e66d-0dfee820951a" testName="LogEvent_BuildFailure_AddEvent_EventAdded" computerName="NLCKCBX3J" duration="00:00:00.0033666" startTime="2011-01-07T22:20:50.7968750+01:00" endTime="2011-01-07T22:20:50.8125000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a987346a-5ad0-498c-b4d7-37064c24152a">
+    </UnitTestResult>
+    <UnitTestResult executionId="be80baac-b981-46f8-b6fb-5ba54bed6ff2" testId="37e462f0-d870-9f99-65d8-ab10616f6cda" testName="LogEvent_BuildSuccess_AddEvent_EventAdded" computerName="NLCKCBX3J" duration="00:00:00.0009719" startTime="2011-01-07T22:20:50.8125000+01:00" endTime="2011-01-07T22:20:50.8125000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be80baac-b981-46f8-b6fb-5ba54bed6ff2">
+    </UnitTestResult>
+    <UnitTestResult executionId="29d86afa-9c1d-4b75-952c-fdb108f0c8f5" testId="d204e93c-511d-cd25-af62-2249661de53c" testName="LogEvent_EndTimer_AddEvent_EventAdded" computerName="NLCKCBX3J" duration="00:00:00.0009735" startTime="2011-01-07T22:20:50.8281250+01:00" endTime="2011-01-07T22:20:50.8281250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29d86afa-9c1d-4b75-952c-fdb108f0c8f5">
+    </UnitTestResult>
+    <UnitTestResult executionId="34b6bf56-4e9a-4d7f-82d6-abe7f010a05d" testId="f596561f-6125-cba0-cd8e-82c2b6621e71" testName="LogEvent_StartTimer_AddEvent_EventAdded" computerName="NLCKCBX3J" duration="00:00:00.0010847" startTime="2011-01-07T22:20:50.8437500+01:00" endTime="2011-01-07T22:20:50.8437500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34b6bf56-4e9a-4d7f-82d6-abe7f010a05d">
+    </UnitTestResult>
+    <UnitTestResult executionId="7ad823da-cb7f-499b-825a-f65d2d7ade5f" testId="896699dd-dbfa-624a-26d0-97a7fa3dc5c9" testName="InterpretTestResults_PassingTests_PropertiesSet" computerName="NLCKCBX3J" duration="00:00:00.0077750" startTime="2011-01-07T22:20:50.8437500+01:00" endTime="2011-01-07T22:20:50.8593750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ad823da-cb7f-499b-825a-f65d2d7ade5f">
+    </UnitTestResult>
+    <UnitTestResult executionId="25f32f6d-8d7d-40bb-abf7-fb1bb77583f4" testId="c02a31d2-04af-ffb6-54d7-333b2b85bb05" testName="DefaultValues" computerName="NLCKCBX3J" duration="00:00:00.0014314" startTime="2011-01-07T22:20:50.8750000+01:00" endTime="2011-01-07T22:20:50.8750000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25f32f6d-8d7d-40bb-abf7-fb1bb77583f4">
+    </UnitTestResult>
+    <UnitTestResult executionId="ebe7dbbf-6d9a-4b9e-9a21-bbdb00c719e2" testId="14142afb-a52e-53d2-5986-0505f28401eb" testName="SettersAndGetters" computerName="NLCKCBX3J" duration="00:00:00.0011557" startTime="2011-01-07T22:20:50.8750000+01:00" endTime="2011-01-07T22:20:50.8906250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebe7dbbf-6d9a-4b9e-9a21-bbdb00c719e2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

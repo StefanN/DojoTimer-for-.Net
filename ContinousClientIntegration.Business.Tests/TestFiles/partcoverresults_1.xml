@@ -1,0 +1,84 @@
+﻿<PartCoverReport version="4.0" date="2010-12-29T14:00:24.8593750+01:00">
+  <File id="1" url="C:\ReferenceMaterial\06 Programming Projects\GeneticAlgorithm\GATSP.Business.Tests\ChromosomeTests.cs" />
+  <File id="3" url="C:\ReferenceMaterial\06 Programming Projects\GeneticAlgorithm\GATSP.Business.Tests\GeneTests.cs" />
+  <File id="2" url="C:\ReferenceMaterial\06 Programming Projects\GeneticAlgorithm\GATSP.Business\Chromosome.cs" />
+  <Assembly id="1" name="GATSP.Business.Functional.Tests" module="C:\DOJO OUT\20101229_140022\GATSP.Business.Functional.Tests.dll" domain="MStest.exe" domainIdx="1" />
+  <Assembly id="2" name="GATSP.Business.Tests" module="C:\DOJO OUT\20101229_140022\GATSP.Business.Tests.dll" domain="MStest.exe" domainIdx="1" />
+  <Assembly id="4" name="GATSP.Business" module="C:\DOJO OUT\20101229_140022\GATSP.Business.dll" domain="Dependency finder domain" domainIdx="1" />
+  <Type asmref="1" name="GATSP.Business.Functional.Tests.GenerateNewPopulationTests" flags="0">
+    <Method name="CrossoverAndMutatePopulation" sig="void  ()" bodysize="126" flags="0" iflags="0" />
+    <Method name="APopulationOfChromosomes" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="IAskItToMutateAndCrossover" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="IGetANewAndSortedPopulation" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+  </Type>
+  <Type asmref="1" name="GATSP.Business.Functional.Tests.CrossoverAndMutationTests" flags="0">
+    <Method name="CrossoverChromosomes" sig="void  ()" bodysize="126" flags="0" iflags="0" />
+    <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="TwoSelectedChromosomes" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="ILetThemCrossover" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="IGetTwoNewChildrenChromosomes" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="MutateChromosome" sig="void  ()" bodysize="126" flags="0" iflags="0" />
+    <Method name="AChromosome" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="ILetItMutate" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="IGetAMutatedChromosome" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+  </Type>
+  <Type asmref="1" name="GATSP.Business.Functional.Tests.SortPopulationOfChromosomesTests" flags="0">
+    <Method name="SortPopulationOfChromosomes" sig="void  ()" bodysize="126" flags="0" iflags="0" />
+    <Method name="AnUnsortedPopulationOfChromosomes" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="ISortThePopulationByFitness" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="IGetASortedPopulationByFitness" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+  </Type>
+  <Type asmref="1" name="GATSP.Business.Functional.Tests.InitialSetupOfChromosomesTests" flags="0">
+    <Method name="InitialSetupOfChromosomes" sig="void  ()" bodysize="126" flags="0" iflags="0" />
+    <Method name="ANewGenePool" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="ICreateAnInitialPool" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name="IGetANewGenerationOfChromosomes" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+    <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+  </Type>
+  <Type asmref="2" name="GATSP.Business.Tests.GeneTests" flags="0">
+    <Method name="TestMethod1" sig="void  ()" bodysize="26" flags="0" iflags="0">
+      <pt visit="1" pos="0" len="1" fid="3" sl="14" sc="9" el="14" ec="10" />
+      <pt visit="1" pos="1" len="3" fid="3" sl="15" sc="13" el="15" ec="60" />
+      <pt visit="1" pos="4" len="9" fid="3" sl="16" sc="13" el="16" ec="72" />
+      <pt visit="1" pos="13" len="1" fid="3" sl="17" sc="9" el="17" ec="10" />
+    </Method>
+    <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0">
+      <pt visit="1" pos="0" len="6" />
+      <pt visit="1" pos="6" len="1" />
+    </Method>
+  </Type>
+  <Type asmref="2" name="GATSP.Business.Tests.ChromosomeTests" flags="0">
+    <Method name="TestMethod1" sig="void  ()" bodysize="26" flags="0" iflags="0">
+      <pt visit="1" pos="0" len="1" fid="1" sl="15" sc="9" el="15" ec="10" />
+      <pt visit="1" pos="1" len="3" fid="1" sl="16" sc="13" el="16" ec="60" />
+      <pt visit="1" pos="4" len="9" fid="1" sl="17" sc="13" el="17" ec="72" />
+      <pt visit="1" pos="13" len="1" fid="1" sl="18" sc="9" el="18" ec="10" />
+    </Method>
+    <Method name="GetFitness_Default_Value0" sig="void  ()" bodysize="38" flags="0" iflags="0">
+      <pt visit="1" pos="0" len="1" fid="1" sl="22" sc="9" el="22" ec="10" />
+      <pt visit="1" pos="1" len="6" fid="1" sl="23" sc="13" el="23" ec="54" />
+      <pt visit="1" pos="7" len="18" fid="1" sl="24" sc="13" el="24" ec="57" />
+      <pt visit="1" pos="25" len="1" fid="1" sl="25" sc="9" el="25" ec="10" />
+    </Method>
+    <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0">
+      <pt visit="2" pos="0" len="6" />
+      <pt visit="2" pos="6" len="1" />
+    </Method>
+  </Type>
+  <Type asmref="4" name="GATSP.Business.Gene" flags="0">
+    <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0" />
+  </Type>
+  <Type asmref="4" name="GATSP.Business.Chromosome" flags="0">
+    <Method name="GetFitness" sig="System.Decimal  ()" bodysize="24" flags="0" iflags="0">
+      <pt visit="1" pos="0" len="1" fid="2" sl="11" sc="9" el="11" ec="10" />
+      <pt visit="1" pos="1" len="9" fid="2" sl="12" sc="13" el="12" ec="22" />
+      <pt visit="1" pos="10" len="2" fid="2" sl="13" sc="9" el="13" ec="10" />
+    </Method>
+    <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0">
+      <pt visit="1" pos="0" len="6" />
+      <pt visit="1" pos="6" len="1" />
+    </Method>
+  </Type>
+</PartCoverReport>
